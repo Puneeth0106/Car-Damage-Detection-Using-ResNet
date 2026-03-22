@@ -1,0 +1,6 @@
+.vscode/
+temp_file.jpg
+dataset
+fastapi-server/__*
+streamlit-app
+uv.lock 
