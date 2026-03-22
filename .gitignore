@@ -1,6 +1,7 @@
 .vscode/
 temp_file.jpg
-dataset
+dataset/
+model/
 fastapi-server/__*
 streamlit-app
 uv.lock 
