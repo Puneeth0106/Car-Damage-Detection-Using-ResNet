@@ -10,3 +10,4 @@ model/saved_model.pth
 # Frontend
 frontend/node_modules/
 frontend/dist/
+DEPLOY.md
