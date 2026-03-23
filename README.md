@@ -133,8 +133,3 @@ file: <car image>
 The model is served via FastAPI and containerized with Docker. A React frontend communicates with the backend through an Nginx reverse proxy, deployed on AWS EC2. See [`DEPLOY.md`](DEPLOY.md) for the full guide.
 
 ---
-
-## Client
-
-**VROOM Cars** · Coordinated by Nikki Payne
-Delivered by **AtliQ Technologies** · Fixed cost: $10,000 · Timeline: 5 weeks
