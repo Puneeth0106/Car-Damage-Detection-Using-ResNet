@@ -5,4 +5,4 @@ dataset/
 fastapi-server/__*
 streamlit-app
 uv.lock 
-savedd*
+model/saved_model.pth
