@@ -8,12 +8,6 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# System libs required by Pillow / OpenCV
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
-    && rm -rf /var/lib/apt/lists/*
-
 # Copy requirements first → Docker caches this layer separately
 # Changing server.py won't re-run pip install
 COPY requirements.txt .
