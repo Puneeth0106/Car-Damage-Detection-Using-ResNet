@@ -6,3 +6,7 @@ fastapi-server/__*
 streamlit-app
 uv.lock 
 model/saved_model.pth
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
